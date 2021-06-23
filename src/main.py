@@ -2,6 +2,7 @@
 from game.game import *
 from game.tictactoe import *
 from game.player import *
+from game.monopoly import *
 
 def main():
     """
