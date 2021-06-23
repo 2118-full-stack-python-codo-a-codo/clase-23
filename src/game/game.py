@@ -2,8 +2,8 @@ from game.player import *
 from random import random
 
 class Game:
-    player1 = None
-    player2 = None
+    player1 = Player
+    player2 = Player
 
     def __init__(self) -> None:
         """
