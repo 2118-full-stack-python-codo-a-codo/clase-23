@@ -1,4 +1,5 @@
-
+from game.player import *
+from random import random
 
 class Game:
     player1 = None
@@ -20,4 +21,6 @@ class Game:
         pass
     
     def update(self) -> bool:
-        pass
+        self.player2.score = random() * 10
+        self.player1.score = random() * 10
+        return False
