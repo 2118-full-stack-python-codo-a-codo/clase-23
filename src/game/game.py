@@ -1,8 +1,9 @@
+from src.game.player import Player
 
 
 class Game:
-    player1 = None
-    player2 = None
+    player1 = Player
+    player2 = Player
 
     def __init__(self) -> None:
         """
