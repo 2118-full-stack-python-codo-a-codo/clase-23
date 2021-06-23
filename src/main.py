@@ -2,6 +2,7 @@
 from game.game import *
 from game.tictactoe import *
 from game.player import *
+from game.my_pro_game import *
 
 def main():
     """
@@ -13,7 +14,7 @@ def main():
 
     print(f"Player1: {myPlayer1} and Player2: {myPlayer2}")
 
-    myGame = TicTacToeGame()
+    myGame = MyProGame()
 
     myGame.player1 = myPlayer1
     myGame.player2 = myPlayer2
